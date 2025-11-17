@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turf Booking App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Turf Booking App</h1>
+</header>
+
+
+<section class="form-section">
+<h2>Book Your Slot</h2>
+<form id="bookingForm">
+<label> Name:
+<input type="text" id="name" required>
+</label>
+<label> Date:
+<input type="date" id="date" required>
+</label>
+<label> Time Slot:
+<select id="slot" required>
+<option value="">Select</option>
+<option>6 AM - 7 AM</option>
+<option>7 AM - 8 AM</option>
+<option>8 AM - 9 AM</option>
+<option>5 PM - 6 PM</option>
+<option>6 PM - 7 PM</option>
+<option>7 PM - 8 PM</option>
+</select>
+</label>
+<button type="submit">Book Now</button>
+</form>
+<p id="message"></p>
+</section>
+
+
+<script src="app.js"></script>
+</body>
+</html>
